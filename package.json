@@ -1,0 +1,36 @@
+{
+  "name": "example_1.0",
+  "version": "1.0.0",
+  "description": "my webpack example",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open --mode=development",
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development"
+  },
+  "author": "Satbergen nurdaulet",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.2",
+    "lodash": "^4.17.15",
+    "postcss-loader": "^3.0.0"
+  }
+}

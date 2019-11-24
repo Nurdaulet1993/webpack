@@ -1,0 +1,21 @@
+@import "layouts/header";
+
+body {
+    background: url("../img/icon.jpg");
+}
+
+.block {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    &__item {
+        background-color: aqua;
+        width: 50px;
+        height: 50px;
+    }
+}
